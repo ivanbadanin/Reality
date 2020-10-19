@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		C4236724253D6867009958F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4236723253D6867009958F8 /* AppDelegate.swift */; };
 		C4236726253D6867009958F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4236725253D6867009958F8 /* ViewController.swift */; };
-		C4236728253D6867009958F8 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C4236727253D6867009958F8 /* Experience.rcproject */; };
 		C423672B253D6867009958F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4236729253D6867009958F8 /* Main.storyboard */; };
 		C423672D253D6868009958F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C423672C253D6868009958F8 /* Assets.xcassets */; };
 		C4236730253D6868009958F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C423672E253D6868009958F8 /* LaunchScreen.storyboard */; };
 		C423673B253D6868009958F8 /* RealityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423673A253D6868009958F8 /* RealityTests.swift */; };
 		C4236746253D6868009958F8 /* RealityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4236745253D6868009958F8 /* RealityUITests.swift */; };
+		C4236757253D6ADB009958F8 /* Test.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C4236756253D6ADB009958F8 /* Test.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		C4236720253D6867009958F8 /* Reality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4236723253D6867009958F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4236725253D6867009958F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C4236727253D6867009958F8 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		C423672A253D6867009958F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C423672C253D6868009958F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C423672F253D6868009958F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		C4236741253D6868009958F8 /* RealityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4236745253D6868009958F8 /* RealityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityUITests.swift; sourceTree = "<group>"; };
 		C4236747253D6868009958F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4236756253D6ADB009958F8 /* Test.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Test.rcproject; path = ../../Test.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				C4236723253D6867009958F8 /* AppDelegate.swift */,
 				C4236725253D6867009958F8 /* ViewController.swift */,
-				C4236727253D6867009958F8 /* Experience.rcproject */,
+				C4236756253D6ADB009958F8 /* Test.rcproject */,
 				C4236729253D6867009958F8 /* Main.storyboard */,
 				C423672C253D6868009958F8 /* Assets.xcassets */,
 				C423672E253D6868009958F8 /* LaunchScreen.storyboard */,
@@ -260,7 +260,7 @@
 			files = (
 				C4236726253D6867009958F8 /* ViewController.swift in Sources */,
 				C4236724253D6867009958F8 /* AppDelegate.swift in Sources */,
-				C4236728253D6867009958F8 /* Experience.rcproject in Sources */,
+				C4236757253D6ADB009958F8 /* Test.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
